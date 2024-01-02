@@ -1649,6 +1649,9 @@ a {
     .wrapper > * {
       padding: 2em 2em;
     }
+    .contact-wrapper {
+        margin-top: 8rem !important;
+    }
   }
   
   ul {
@@ -1664,7 +1667,7 @@ a {
     background: #fff;
   }
   
-  form {
+  /* form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
@@ -1674,7 +1677,7 @@ a {
   }
   form p {
     margin: 0;
-  }
+  } */
   
   .full-width {
     grid-column: 1 / 3;
@@ -1784,6 +1787,11 @@ a {
   }
   ul.list li.work {
     border-left-color: #fa5437;
+  }
+
+  #purpose-dropdown{
+    padding: 1em;
+    border: 1px #4a4a4a75 solid;
   }
   
 
