@@ -1,0 +1,346 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>MPC | Prayer-Request</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/css/intlTelInput.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .header-sticky {
+            background-color: rgba(0, 71, 171, 0.8);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky position-unset">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <img src="images/logo.png" class="w-auto" alt="Logo" width="70px" height="70px">
+
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="index.html">HOME</a></li>
+                            <li class="has-sub">
+                                <a href="javascript:void(0)"  class="active">CONNECT</a>
+                                <ul class="sub-menu">
+                                    <!--   <li><a href="#">First Time Visitor</a></li> -->
+                                    <li><a href="#">Prayer Requests</a></li>
+                                    <!--   <li><a href="#">Volunteer</a></li> -->
+
+                                </ul>
+                            </li>
+                            <li class="has-sub">
+                                <a href="javascript:void(0)">ABOUT US</a>
+                                <ul class="sub-menu">
+                                    <li><a href="leadership.html">Leadership</a></li>
+                                    <!-- <li><a href="#">Who we are</a></li>
+                                <li><a href="#">One team</a></li>
+                                <li><a href="#">One time table</a></li>
+                                <li><a href="#">Policies - safeguarding </a></li>
+                                <li><a href="#">Church events </a></li> -->
+
+                                </ul>
+                            </li>
+                            <!--  <li class="has-sub">
+                            <a href="javascript:void(0)">MINISTRIES</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Children's church</a></li>
+                                <li><a href="#">Bible study</a></li>
+                                <li><a href="#">Chain of prayer</a></li>
+                                <li><a href="#">Evangelism</a></li>
+                                <li><a href="#">Outreach programs </a></li>
+
+                            </ul>
+                        -->
+                            </li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <div class="container common-container container-margin">
+        <div class="row ms-2 me-2">
+            <div class="col-lg-2">
+                <nav aria-label="breadcrumb" class="float-lg-start float-sm-start float-xs-start">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html" class="text-primary">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Prayer-request</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="heading text-center">
+                    <h2>Prayer
+                        <span> Request </span>
+                    </h2>
+                
+                       
+                  
+                </div>
+                <div class="row mt-5">
+                  
+
+                    <div class="col-md-12">
+
+                        <div class="contain">
+
+                            <div class="wrapper">
+
+                                <div class="form">
+                                    <h4 class="text-primary">GET IN TOUCH</h4>
+                                    <h2 class="form-headline text-dark">Send us a prayer request</h2>
+                                    <form id="submit-form" action="">
+                                        <p>
+                                            <input id="name" class="form-input" type="text" placeholder="Your Name*">
+                                            <small class="name-error"></small>
+                                        </p>
+                                        <p>
+                                            <input id="phone" class="form-input" type="text"
+                                                placeholder="Your Phone Number">
+                                            <small class="name-error"></small>
+                                        </p>
+
+                                        <div class="dropdown">
+                                            <button
+                                                class="btn btn-light bg-white w-100 h-100 text-start text-secondary dropdown-toggle"
+                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Purpose for prayer request
+                                            </button>
+                                            <ul class="dropdown-menu w-100">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            </ul>
+                                        </div>
+
+
+                                        <p>
+                                            <input id="email" class="form-input" type="email" placeholder="Your Email">
+
+                                        </p>
+                                        <p class="full-width">
+                                            <textarea minlength="20" id="message" cols="30" rows="7"
+                                                placeholder="Your Message*" required></textarea>
+                                            <small></small>
+                                        </p>
+                                        <p class="full-width text-dark">
+                                            <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would
+                                            like to receive communication by call from Pastor / Representative of MPC.
+                                        </p>
+                                        <p class="full-width">
+                                            <input type="submit" class="submit-btn" value="Submit"
+                                                onclick="checkValidations()">
+                                            <button class="reset-btn" onclick="reset()">Reset</button>
+                                        </p>
+                                    </form>
+                                </div>
+
+                                <div class="contacts contact-wrapper">
+
+                                    <ul>
+                                        <li class="abel-normal"><i> We would like to express and share with you the true
+                                            and wonderful love of our <span class="highlight-text-grey">Lord Jesus
+                                                Christ</span> </li></i>
+                                        <span class="hightlight-contact-info">
+                                            <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i>
+                                                mpcmanchester@gmail.com</li>
+                                            <li><i class="fa fa-phone" aria-hidden="true"></i> <span
+                                                    class="highlight-text">+447872642972</span></li>
+                                        </span>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+  <!-- Footer -->
+  <footer
+  class="text-center text-lg-start text-white"
+  style="background-color: #1c2331"
+  >
+<!-- Section: Social media -->
+<section
+     class="d-flex justify-content-between p-4 bg-primary bg-gradient"
+    
+     >
+<!-- Left -->
+<div class="me-5">
+ 
+  <h3><span class="cursive-header fw-bold">M</span>ANCHESTER <span class="cursive-header fw-bold">P</span>ENTECOSTAL <span class="cursive-header fw-bold">C</span>HURCH</h3>
+</div>
+<!-- Left -->
+
+</section>
+<!-- Section: Social media -->
+
+<!-- Section: Links  -->
+<section class="">
+<div class="container text-center text-md-start mt-5">
+<!-- Grid row -->
+<div class="row mt-3">
+  <!-- Grid column -->
+  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+    <!-- Content -->
+    <h6 class="text-uppercase fw-bold">About Us</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #7c4dff; height: 2px"
+        />
+    <p>
+      We are a God fearing congregation of Pentecostal community living to serve, pray and abide.
+    </p>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+    <!-- Links -->
+    <h6 class="text-uppercase fw-bold">Activities</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #7c4dff; height: 2px"
+        />
+    <p>
+      <a href="#!" class="text-white">ONLINE CHURCH</a>
+    </p>
+    <p>
+      <a href="#!" class="text-white">SERMONS</a>
+    </p>
+    <p>
+      <a href="#!" class="text-white">BOOKS</a>
+    </p>
+    <p>
+      <a href="#!" class="text-white">DAILY DEVOTIONS</a>
+    </p>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+    <!-- Links -->
+    <h6 class="text-uppercase fw-bold">Customs</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #7c4dff; height: 2px"
+        />
+    <p>
+      <a href="#!" class="text-white">MUSIC</a>
+    </p>
+    <p>
+      <a href="#!" class="text-white">COUNSELLING</a>
+    </p>
+    <p>
+      <a href="#!" class="text-white">FELLOWSHIPS</a>
+    </p>
+    
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+    <!-- Links -->
+    <h6 class="text-uppercase fw-bold">Contact</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #7c4dff; height: 2px"
+        />
+    <p><i class="fas fa-home mr-3"></i> 347 Burnage Ln, Manchester M19 1EW</p>
+    <p><i class="fas fa-envelope mr-3"></i> info@mpcmanchester.com</p>
+    <p><i class="fas fa-phone mr-3"></i> +447872642972, +447886864610</p>
+  
+  </div>
+  <!-- Grid column -->
+</div>
+<!-- Grid row -->
+</div>
+</section>
+<!-- Section: Links  -->
+
+<!-- Copyright -->
+<div
+ class="text-center p-3"
+ style="background-color: rgba(0, 0, 0, 0.2)"
+ >
+ Manchester Pentecostal Church
+© 2024 Copyright:
+
+</div>
+<!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
+    <script>
+        const input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+            utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
+            initialCountry: "auto",
+            geoIpLookup: callback => {
+                fetch("https://ipapi.co/json")
+                    .then(res => res.json())
+                    .then(data => callback(data.country_code))
+                    .catch(() => callback("uk"));
+            },
+        });
+    </script>
+
+
+
+
+
+</body>
+
+</html>
