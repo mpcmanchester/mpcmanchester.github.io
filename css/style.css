@@ -316,7 +316,7 @@ figcaption {
     -o-transition: all 0.4s;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
-    background-color: #1e1e1e;
+    background-color: #fff;
     display: block;
     position: absolute;
     width: 30px;
@@ -327,7 +327,7 @@ figcaption {
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-    background-color: #1e1e1e;
+    background-color: #fff;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -336,7 +336,7 @@ figcaption {
     -o-transition: all 0.4s;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
-    background-color: #1e1e1e;
+    background-color: #fff;
     display: block;
     position: absolute;
     width: 30px;
@@ -447,7 +447,7 @@ figcaption {
     }
 
     .header-area {
-        background-color: #f7f7f7;
+        background-color: #80808040;
         padding: 0px 15px;
         height: 100px;
         box-shadow: none;
