@@ -435,6 +435,15 @@ figcaption {
         color: #1e1e1e;
     }
 
+    .main-message main{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    #shadow-col{
+        padding: 0px !important;
+    }
+
 
     .header-area.header-sticky .nav li a:hover,
     .header-area.header-sticky .nav li a.active {
