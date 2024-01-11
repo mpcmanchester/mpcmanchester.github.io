@@ -837,7 +837,7 @@ position: relative;
     .blog-slider {
         min-height: 500px;
         height: auto;
-        margin: 140px;
+        margin-top: 140px;
     }
 }
 
@@ -1226,8 +1226,8 @@ iframe div {
   }
   
   .social-links a {
-    width: 80px;
-    height: 80px;
+    width: 4em;
+    height: 4em;
     text-align: center;
     text-decoration: none;
     color: #000;
@@ -1245,8 +1245,8 @@ iframe div {
   }
   
   .social-links a .fab {
-    font-size: 30px;
-    line-height: 80px;
+    font-size: 1.5em;
+    line-height: 2.5em;
     position: relative;
     z-index: 10;
     -webkit-transition: color 0.5s;
@@ -1255,8 +1255,8 @@ iframe div {
   }
 
   .social-links a .fa {
-    font-size: 30px;
-    line-height: 80px;
+    font-size: 1.5em;
+    line-height: 2.5em;
     position: relative;
     z-index: 10;
     -webkit-transition: color 0.5s;
