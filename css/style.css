@@ -837,7 +837,7 @@ position: relative;
     .blog-slider {
         min-height: 500px;
         height: auto;
-        margin: 180px auto;
+        margin: 140px;
     }
 }
 
@@ -1336,7 +1336,7 @@ cite {
 
 .upcoming-events-header{
     font-family: 'Parisienne', cursive;
-    font-size: 1.3em;
+    font-size: 2em;
     color: var(--bg-muted);
     margin: 20px 0;
 }
