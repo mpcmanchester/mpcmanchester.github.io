@@ -1336,7 +1336,7 @@ cite {
 
 .upcoming-events-header{
     font-family: 'Parisienne', cursive;
-    font-size: 2em;
+    font-size: 1.3em;
     color: var(--bg-muted);
     margin: 20px 0;
 }
