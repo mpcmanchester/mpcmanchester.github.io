@@ -2031,7 +2031,46 @@ a {
           transform: translateY(-25px);
     }
   }
+
+
+  .intro {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1rem;
+  /*   background: linear-gradient(45deg, #ffcc5c 33%, rgba(0,0,0,0.6) 35%), url(https://images.unsplash.com/photo-1510519138101-570d1dca3d66);
+    background-size: cover; */
+    /* background: repeating-linear-gradient(45deg, #ff6f69 0%, #ff6f69 5%, #ffcc5c 5%, #ffcc5c 10%); */
+    background: linear-gradient(45deg, #ffcc5c 20%, #3c3c3c 20% 50%, #ff6f69 50% 80%, #96ceb4 80%);
+  }
+  .intro-body {
+    border: 2px solid #fff;
+    padding: 2rem 3rem;
+    background-color: rgba(0,0,0,0.2);
+  }
+  .intro h1 {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  .intro p {
+    font-size: 1.75rem;
+  }
   
+  @media (max-width: 700px) {
+    html { font-size: 12px; }
+    .intro-body { border: 3px solid #fff; padding: 1.5rem 2rem; }
+    .intro h1 { font-size: 2.5rem; }
+    .intro p { font-size: 1.25rem; }
+  }
+  
+
+  .gradient-text{
+    background: linear-gradient(90deg, rgba(129,132,232,1) 0%, rgba(158,186,230,1) 18%, rgba(194,191,226,1) 46%, rgba(237,197,235,1) 69%, rgba(238,174,202,1) 87%, rgba(238,174,202,1) 87%, rgba(255,134,160,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
 
 
   
