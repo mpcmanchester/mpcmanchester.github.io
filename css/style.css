@@ -16,6 +16,7 @@
     --bg-green: #198754;
     --bg-teal: #20c997;
     --bg-muted: #777;
+    --bg-dark: rgba(7, 7, 7, 0.664);
     --bg-dark-text: #717070;
 
 }
@@ -2073,6 +2074,137 @@ a {
   }
 
 
+  .products-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+ .products-list > .item {
+    background-color: #343a40;
+    color: #fff;
+    border-bottom-color: #6c757d;
+  }
+
+  .product-list-in-card > .item {
+    border-radius: 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+      border-bottom-color: rgba(0, 0, 0, 0.125);
+  }
+
+  .products-list > .item {
+    border-radius: .25rem;
+    background-color: #fff;
+    padding: 10px 0;
+  }
+
+  .products-list .product-img {
+    float: left;
+  }
+
+  .products-list > .item {
+    color: #fff;
+  }
+
+  .products-list .product-info {
+    margin-left: 60px;
+  }
+
+  .products-list > .item {
+    color: #fff;
+  }
+
+  .products-list .product-title {
+    font-weight: 600;
+  }
+
+  .product-description {
+    color: #ced4da;
+  }
+
+  .products-list .product-description {
+    color: #6c757d;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .products-list .product-img img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .float-right {
+    float: right !important;
+  }
+
+  .badge-warning {
+    color: #fff;
+    background-color: var(--bg-yellow);
+  }
+
+  .badge-info {
+    color: #fff;
+    background-color: var(--bg-teal);
+  }
+
+  .badge-danger {
+    color: #fff;
+    background-color: var(--bg-red);
+  }
+
+  .badge-success {
+    color: #fff;
+    background-color: var(--bg-green);
+  }
+  .badge-dark {
+    color: #fff;
+    background-color: var(--bg-dark);
+  }
+  .badge-indigo {
+    color: #fff;
+    background-color: var(--bg-indigo);
+  }
+  .badge-orange {
+    color: #fff;
+    background-color: var(--bg-orange);
+  }
+
+  .badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    color: white;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+
+  .card-header {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: .75rem 1.25rem;
+    position: relative;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+  }
+
+  .card-title {
+    float: left;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .card-header > .card-tools {
+    float: right;
+    margin-right: -.625rem;
+  }
   
 
   
